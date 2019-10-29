@@ -1,0 +1,23 @@
+:root {
+  --background: #a675a1;
+  --header: #25283d;
+  --aqua: ;
+}
+body {
+  background-color: var(--background);
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+}
+
+h1 {
+  color: var(--header);
+  text-shadow: 4px 3px 3px #aaaaaa;
+  font-family: Sunshiney, sans-serif;
+  font-weight: 100;
+  font-size: 400%;
+}
